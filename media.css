@@ -31,6 +31,7 @@
     font-size: 15px;
     line-height: 20px;
     margin-left: 260px;
+    margin-top: 8px;
 }
     .top_paragraf::before,
     .top_paragraf::after {
@@ -39,7 +40,8 @@
 .top_menu {
     margin-left: -290px;
     align-items: center;
-    margin-top: -37px;
+    margin-top: 57px;
+    text-align: center;
 }
 h1 {
     margin-left: 272px;
@@ -48,6 +50,7 @@ h1 {
     width: 164px;
     height: 77px;
     margin-left: 266px;
+    margin-top: 48px;
 }
 
 }
