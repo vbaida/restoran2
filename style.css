@@ -83,6 +83,17 @@ table {
     text-decoration: none;
     width: 51px;
 }
+.nav__btn_mobile {
+    display: none;
+    width: 30px;
+    flex-direction: column;
+    row-gap: 4px;
+}
+.nav__btn_mobile div {
+    height: 3px;
+    background: #FF7400;
+    border-radius: 20%;
+}
 .header__menu {
     display: flex;
     align-items: center;
