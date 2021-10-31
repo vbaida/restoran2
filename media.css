@@ -109,6 +109,26 @@ display: flex;
     margin-left: -293px;
     margin-top: 317px;
 }
+.number {
+    margin-top: 25px;
+}
+.picture img {
+    width: 200px;
+    margin-left: 509px;
+}
+.picture2 img {
+    width: 169px;
+    margin-left: 703px;
+    margin-top: -140px;
+}
+.picture3 img {
+    width: 170px;
+    }
+.picture4 img {
+    width: 142px;
+    margin-left: 703px;
+    margin-top: -243px;
+}
     .fon2 {
         margin-top: 600px;
         height: 500px;
