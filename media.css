@@ -64,4 +64,37 @@ display: flex;
     .box p {
         margin-left: 20px;
     }
+    .box {
+        background: aqua;
+    }
+    .number {
+        width: 376px;
+        height: 270px;
+        display: flex;
+        margin-left: 157px;
+        column-gap: -82px;
+        align-content: center;
+        margin-top: 99px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .white__fon {
+        margin-top: 1310px;
+        margin-left: -169px;
+    }
+.white__fon_tekst {
+    margin-top: -67px;
+}
+.white__fon_picture {
+    margin-left: -293px;
+    margin-top: 317px;
+}
+    .fon2 {
+        margin-top: 600px;
+        height: 500px;
+    }
+    .dark__fon {
+        flex-direction: column;
+    }
 }
