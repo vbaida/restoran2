@@ -52,7 +52,7 @@ table {
 .heder {
     height: 100vh;
     background: url("/image/hero image.png") no-repeat center/cover;
-    position: relative;
+
 
 }
 .heder__top {
@@ -177,22 +177,25 @@ content: "";
 }
 
 .diner {
-    width: 100%;
+    width: 1600px;
     height: 400px;
     position: relative;
     display: flex;
     justify-content: space-around;
-    top: 190px;
-}
+    top: 229px;
+    }
+
 .box {
     width: 400px;
     height: 400px;
-    background-color: #FF7400;
+    background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
+
 h3 {
     font-weight: normal;
     font-size: 26px;
@@ -211,4 +214,76 @@ h3 {
 }
 .box img {
     width: 100px;
+    background-color: #FF7400;
+}
+
+.fon {
+    height: 100vh;
+background: #FFFFFF;
+    position: relative;
+}
+.white__fon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+    margin-top: 348px;
+}
+.white__fon h1 {
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+    margin-left: 166px;
+}
+.white__fon p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+    width: 381px;
+    margin-top: 23px;
+    margin-left: 166px;
+}
+.number {
+    width: 378px;
+    height: 90px;
+    display: flex;
+    margin-left: 157px;
+    column-gap: 66px;
+    align-content: center;
+    justify-content: space-evenly;
+    margin-top: 99px;
+}
+.number1 {
+    width: 85px;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.picture img {
+    position: absolute;
+    margin-left: 443px;
+    margin-top: -249px;
+    z-index: 4;
+}
+.picture2 img {
+    position: absolute;
+    margin-left: 746px;
+    margin-top: -67px;
+    z-index: 3;
+}
+.picture3 img {
+    position: absolute;
+    margin-left: 638px;
+    margin-top: -273px;
+    z-index: 2;
+}
+.picture4 img {
+    position: absolute;
+    margin-left: 751px;
+    margin-top: -232px;
+    z-index: 1;
 }
