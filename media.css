@@ -201,4 +201,9 @@ display: flex;
         color: #000000;
         text-align: center;
     }
+    .border {
+        background: #FFFFC1;
+        width: 350px;
+        height: 510px;
+        position: absolute;
 }
