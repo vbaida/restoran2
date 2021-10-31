@@ -331,8 +331,8 @@ background: #FFFFFF;
 }
 .dark__fon {
     width: 100%;
-    height: 357px;
     display: flex;
+    align-items: center;
 }
 .tekst {
     width: 682px;
