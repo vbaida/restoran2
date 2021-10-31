@@ -1,4 +1,7 @@
 @media screen and (max-width: 800px){
+    .bos {
+        display: flex;
+    }
     .heder__menu {
         display: none;
     }
@@ -13,7 +16,7 @@
 
     }
     .wrapper {
-        max-width: 340px;
+        max-width: 700px;
             }
     .nav__btn_mobile {
 display: flex;
@@ -25,19 +28,19 @@ display: flex;
         flex-direction: column;
         align-items: center;
     }
-    h2 {
+    .finish__tekst h2 {
         font-weight: normal;
         font-size: 30px;
         line-height: 34px;
         color: #D67E35;
     }
-    h1 {
+    .finish__tekst h1 {
         font-weight: normal;
         font-size: 40px;
         line-height: 46px;
         color: #D67E35;
     }
-    p {
+    .finish__tekst p {
         font-weight: normal;
         font-size: 15px;
         line-height: 20px;
@@ -53,7 +56,7 @@ display: flex;
     }
     .diner {
         width: 350px;
-        height: 1200px;
+        height: 980px;
         position: relative;
         display: flex;
         top: 320px;
@@ -61,11 +64,10 @@ display: flex;
         justify-content: space-evenly;
 
     }
-    .box p {
-        margin-left: 20px;
-    }
-    .box {
+        .box {
         background: aqua;
+        width: 290px;
+        height: 290px;
     }
     .number {
         width: 376px;
@@ -80,11 +82,28 @@ display: flex;
         justify-content: center;
     }
     .white__fon {
-        margin-top: 1310px;
-        margin-left: -169px;
+        margin-top: 561px;
+        margin-left: -216px;
     }
 .white__fon_tekst {
-    margin-top: -67px;
+    margin-top: -229px;
+    margin-left: -139px;
+}
+.white__fon_tekst h1 {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    color: #000000;
+    width: 150px;
+}
+.white__fon_tekst p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+    width: 274px;
 }
 .white__fon_picture {
     margin-left: -293px;

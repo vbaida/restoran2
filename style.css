@@ -104,7 +104,7 @@ table {
     border-left: 2px solid;
     padding-left: 31px;
 }
-p {
+.header__phone p {
     font-weight: normal;
     font-size: 14px;
     line-height: 19px;
@@ -129,13 +129,13 @@ p {
     color: #FFFFFF;
 
 }
-h2 {
+.finish__tekst h2 {
     font-weight: normal;
     font-size: 50px;
     line-height: 57px;
     color: #D67E35;
 }
-h1 {
+.finish__tekst h1 {
     font-weight: normal;
     font-size: 80px;
     line-height: 92px;
@@ -194,7 +194,7 @@ content: "";
     position: relative;
 }
 
-h3 {
+.box h3 {
     font-weight: normal;
     font-size: 26px;
     line-height: 30px;
@@ -235,6 +235,19 @@ background: #FFFFFF;
     align-items: center;
     margin-top: -165px;
 }
+.white__fon_tekst h1 {
+    font-weight: normal;
+    font-size: 54px;
+    line-height: 62px;
+    color: #000000;
+}
+.white__fon_tekst p {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #656363;
+}
 .white__fon_picture {
     margin-left: 490px;
     margin-top: -207px;
@@ -272,6 +285,20 @@ background: #FFFFFF;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+.number1 h2 {
+    ont-weight: normal;
+    font-size: 40px;
+    line-height: 54px;
+    text-align: center;
+    color: #BC9060;
+}
+.number1 h3 {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #000000;
 }
 .picture img {
     position: absolute;
