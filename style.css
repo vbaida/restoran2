@@ -85,6 +85,7 @@ table {
 }
 .nav__item img {
     width: 30px;
+    background: #FFFFFF;
 }
 .heder__contakt {
     display: flex;
@@ -213,7 +214,7 @@ content: "";
 }
 .box img {
     width: 100px;
-    background: #FF7400;
+    background: #FFFFFF;
 }
 
 .fon {
