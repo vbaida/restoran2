@@ -71,7 +71,7 @@
         height: 980px;
         position: relative;
         display: flex;
-        top: 232px;
+        top: 144px;
         flex-direction: column;
         justify-content: space-evenly;
 
@@ -97,7 +97,7 @@
     }
 
     .white__fon {
-        margin-top: 561px;
+        margin-top: 406px;
         margin-left: -216px;
     }
 
@@ -243,8 +243,84 @@
         width: 350px;
         height: 510px;
         position: absolute;
+        margin-top: 58px;
     }
+
     .our__menu {
-        top: 100px;
+        margin-top: 663px;
     }
+
+    .border1 {
+        position: absolute;
+        margin-top: 58px;
+    }
+
+    .description p {
+        width: 290px;
+        height: 196px;
+    }
+
+    .description img {
+        margin-top: 88px;
+    }
+
+    .foto {
+
+    }
+
+    .red {
+        display: none;
+    }
+
+    .foto__kofe img {
+        width: 298px;
+        height: 298px;
+    }
+
+    .foto__kofe {
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    .foto__kofe1 img {
+        width: 298px;
+        height: 298px;
+    }
+
+    .foto__kofe1 {
+        margin-top: 20px;
+        display: block;
+        text-align: center;
+    }
+
+    .Cook {
+        display: block;
+        text-align: center;
+    }
+
+    .Cook img {
+        width: 288px;
+        height: 380px;
+    }
+    .foto .foto2 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+        color: #000000;
+    }
+    .foto h1 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 40px;
+        line-height: 46px;
+        text-align: center;
+        color: #000000;
+    }
+    .finish {
+        margin-left: 0;
+    }
+
 }
