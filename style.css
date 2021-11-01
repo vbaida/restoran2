@@ -180,7 +180,7 @@ content: "";
     position: relative;
     display: flex;
     justify-content: space-around;
-    top: 219px;
+    top: 157px;
     }
 
 .box {
@@ -384,7 +384,7 @@ background: #FFFFFF;
 }
 .pizza__photo img {
     position: absolute;
-    margin-left: 500px;
+    margin-left: 380px;
     margin-top: 127px;
 }
 .gamburger__photo {
@@ -458,7 +458,12 @@ background: #FFFFC1;
     border-radius: 50%;
     position: relative;
 }
-.border .raund {
+ .raund {
+    position: absolute;
+    margin-top: -104px;
+    margin-left: 147px;
+}
+.border1 .raund1 {
     position: absolute;
     margin-top: 158px;
     margin-left: 147px;
@@ -505,4 +510,13 @@ background: #FFFFC1;
     text-align: center;
     color: #FFFFFF;
     margin-top: 60px;
+}
+.number2 {
+    margin-top: 189px;
+    margin-left: 140px;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 33px;
+    color: #FFFFFF;
+    position: absolute;
 }
