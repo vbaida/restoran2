@@ -182,9 +182,10 @@ content: "";
     display: flex;
     justify-content: space-around;
     top: 157px;
-    }
+        }
 
 .box {
+    border: solid #656363;
     width: 350px;
     height: 350px;
     background-color: #FFFFFF;
